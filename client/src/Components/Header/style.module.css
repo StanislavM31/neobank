@@ -12,23 +12,27 @@
   width: 857px;
   height: 53px;
   position: relative;
-  border: 1px solid black;
 }
 .linkLogo {
   position: absolute;
   top: 0;
-  left: -150px;
+  left: 20px;
 }
 .nav {
   display: flex;
   gap: 80px;
   justify-content: space-between;
   width: 545px;
-  border: 1px solid black;
+  margin-left: 100px;
 }
 .nav .linkBtn {
   color: #ffff;
   text-align: center;
   font: 400 20px "Poppins";
   line-height: 30px;
+}
+@media (max-width: 360px){
+  .nav{
+    display: none;
+  }
 }

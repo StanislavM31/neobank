@@ -13,6 +13,25 @@
   color: #fff;
   padding: 63px 650px 0 650px;
 }
-.wraperInner{
+.wraperInner {
   width: 985px;
+}
+
+@media (max-width: 360px) {
+  .linkLogo {
+    right: 20px;
+    border: 1px solid black;
+  }
+  .nav .linkBtn {
+    display: none;
+  }
+
+  .wraperInner {
+    
+    width: 360px;
+  }
+
+  .wrapperPreview h1 {
+    color: red
+  }
 }

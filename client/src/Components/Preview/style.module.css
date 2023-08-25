@@ -13,14 +13,17 @@
   letter-spacing: 0.24em;
   text-align: center;
   font: 400 45px "Poppins";
+  margin-top: 95px;
 }
 .p2 {
   letter-spacing: 0.24em;
   text-align: center;
   font: 400 30px "Poppins";
+  margin-top: 45px;
+  letter-spacing: 0;
 }
 h1 {
-  font: 800 80px "Poppins";
+  font: 800 5rem "Poppins";
   text-align: center;
 }
 .wrapperInput {
@@ -29,19 +32,24 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
-  width: 970px;
-  height: 250px;
+
+
   padding: 45px 0 45px 0;
   margin: 45px 0 45px 0;
   background-color: #ffffff80;
   border-radius: 40px;
 }
-.wrapperInput div {
+.wrapperInput input[type="text"] {
   width: 425px;
   height: 65px;
   align-items: center;
   border-radius: 10px;
   background-color: #ffff;
+  border: 1px solid #0A85FF;
+}
+.wrapperInput input[type="text"]:focus{
+  border: 2px solid #0a2fff;
+  background-color: #4a99f310;
 }
 .btn .btnSubmit{
   background-color: #ffff;
@@ -50,10 +58,27 @@ h1 {
   padding: 18px 45px;
   text-transform: none;
   border: none;
+  margin-bottom: 125px;
 }
-
 .btnSubmit {
   color: #0A85FF;
   background-color: #ffff;
 }
-
+@media (max-width: 360px) {
+  .wrapperPreview{
+    width: 326px;
+  }
+  .p1{
+    font: 400 14px "Poppins";
+  }
+  .p2{
+    font: 400 16px "Poppins";
+  }
+  h1{
+    font: 800 25px "Poppins";
+  }
+  .wrapperInput{
+    flex-direction: column;
+    padding: 20px ;
+  }
+}
