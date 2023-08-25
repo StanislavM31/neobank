@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapperPreview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p1 {
+  letter-spacing: 0.24em;
+  text-align: center;
+  font: 400 45px "Poppins";
+}
+.p2 {
+  letter-spacing: 0.24em;
+  text-align: center;
+  font: 400 30px "Poppins";
+}
+h1 {
+  font: 800 80px "Poppins";
+  text-align: center;
+}
+.wrapperInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 970px;
+  height: 250px;
+  padding: 45px 0 45px 0;
+  margin: 45px 0 45px 0;
+  background-color: #ffffff80;
+  border-radius: 40px;
+}
+.wrapperInput div {
+  width: 425px;
+  height: 65px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #ffff;
+}
+.btn .btnSubmit{
+  background-color: #ffff;
+  font: 700 24px "Poppins";
+  border-radius: 20px;
+  padding: 18px 45px;
+  text-transform: none;
+  border: none;
+}
+
+.btnSubmit {
+  color: #0A85FF;
+  background-color: #ffff;
+}
+

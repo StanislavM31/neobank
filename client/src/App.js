@@ -1,12 +1,15 @@
 import style from "./style.module.css";
 import Header from "./Components/Header/Header";
+import Preview from "./Components/Preview/Preview";
 
 function App() {
   return (
     <>
       <div className={style.wrapper}>
+        <div className={style.wraperInner}>
         <Header />
-        <h1>NEOBANK</h1>
+        <Preview />
+        </div>
       </div>
     </>
   );

@@ -6,9 +6,9 @@ function Header() {
   return (
     <div>
       <div className={style.wraperHeader}>
-      <h1 className={style.linkLogo}>
+      <div className={style.linkLogo}>
         <Link href="#" underline="none" ><img src={logo} alt="img"/></Link>
-      </h1>
+      </div>
         <div className={style.nav}>
             <Link href="#" underline="none" className={style.linkBtn}>{"Target audience"}</Link>
             <Link href="#" underline="none" className={style.linkBtn}>{"Summary"}</Link>

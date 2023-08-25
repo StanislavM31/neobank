@@ -5,11 +5,14 @@
 }
 
 .wrapper {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url(./assets/Banner.png);
   color: #fff;
-  padding-top: 63px;
+  padding: 63px 650px 0 650px;
+}
+.wraperInner{
+  width: 985px;
 }
